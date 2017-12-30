@@ -1,8 +1,9 @@
+html {
+  font-size: 16px;
+}
 
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
+body {
+  font-family: verdana;
 }
 
 /* Header */
@@ -11,7 +12,7 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 64px;
+  height: 4rem;
   border-bottom: 1px solid black;
 }
 
@@ -19,30 +20,38 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 .logo img {
-  width: 70px;
-  height: 60px;
-  margin-right: 12px;
+  width: 4.375rem;
+  height: 3.75rem;
+  margin-right: 0.75rem;
 }
 
 .logo span {
   color: mediumaquamarine;
+  font-size: 2rem;
 }
 
 header nav {
-  padding-right: 40px;
+  padding-right: 2.5rem;
 }
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 
 /*main banner*/
 .container {
   display: flex;
   justify-content: space-between;
-  margin: 32px;
+  margin: 2rem;
   background-color: purple;
 }
+
 
 .left {
   background-color: pink;
@@ -51,8 +60,6 @@ header nav {
 
  .left img {
   width: 100%;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .left,
@@ -73,8 +80,14 @@ header nav {
   padding: 24px;
 }
 
+.right span {
+  font-size: 1.5rem;
+}
+
 .button {
   padding: 8px;
+  background-color: grey;
+  font-size: 1rem;
 }
 
 /*events*/
@@ -117,7 +130,6 @@ header nav {
 /*thesis*/
 .container video {
  max-width: 100%;
- padding: 24px 32px;
 }
 
 /*footer*/
