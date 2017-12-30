@@ -1,0 +1,142 @@
+
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 24px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+/*main banner*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px;
+  background-color: purple;
+}
+
+.left {
+  background-color: pink;
+  width: 60%
+}
+
+ .left img {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.left,
+  .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  background-color: lightblue;
+  width: 40%;
+}
+
+ .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.button {
+  padding: 8px;
+}
+
+/*events*/
+.event img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+  float: left;
+}
+
+.event {
+  border: 1px solid black;
+}
+
+/*courses*/
+.top {
+  padding-top: 70px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 72px;
+  padding: 32px;
+}
+
+.course img {
+  display: block;
+  height: auto;
+  width: 300px;
+  padding: 10px;
+}
+
+.course {
+  justify-content: center;
+}
+/*thesis*/
+.container video {
+ max-width: 100%;
+ padding: 24px 32px;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  text-align: center;
+  border-top: 1px solid black;
+  background-color: lightgreen;
+  justify-content: space-between;
+  margin: 32px;
+  padding: 10px;
+}
+
+footer .legal {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+footer span {
+  padding: 10px;
+}
