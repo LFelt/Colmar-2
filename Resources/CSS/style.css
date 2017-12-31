@@ -43,6 +43,26 @@ nav span {
   padding: 20px 10px;
 }
 
+ .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 560px) {
+  .mobile {
+    display: inline-block;
+    width: 100%;
+  }
+
+.mobile img {
+  padding: 0 2rem;
+}
+  nav span,
+  .logo {
+    display: none;
+  }
+}
+
+
 
 /*main banner*/
 .container {
@@ -97,6 +117,33 @@ nav span {
   padding: 8px;
   background-color: grey;
   font-size: 1rem;
+}
+
+.small {
+  display: none;
+}
+
+@media only screen and (max-width: 560px) {
+  .container {
+   display: none;
+  }
+
+.small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small img {
+  max-width: 100%;
+}
+
+.small .text-main {
+  margin: 1rem;
+}
+.button {
+  justify-content: center;
+}
 }
 
 /*events*/
