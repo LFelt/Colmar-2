@@ -134,12 +134,9 @@ nav span {
   justify-content: center;
 }
 
-.small img {
-  max-width: 100%;
-}
-
 .small .text-main {
   margin: 1rem;
+  max-width: 85%;
 }
 
 }
@@ -152,6 +149,9 @@ nav span {
   float: left;
 }
 
+.small img {
+  max-width: 100%;
+}
 .event {
   border: 1px solid black;
 }
