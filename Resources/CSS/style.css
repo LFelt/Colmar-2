@@ -141,9 +141,7 @@ nav span {
 .small .text-main {
   margin: 1rem;
 }
-.button {
-  justify-content: center;
-}
+
 }
 
 /*events*/
@@ -158,6 +156,15 @@ nav span {
   border: 1px solid black;
 }
 
+@media only screen and (max-width: 560px) {
+  .small .event {
+    border: none;
+  }
+
+  .small img {
+    padding: 1rem;
+  }
+}
 /*courses*/
 .top {
   text-align: center;
@@ -170,7 +177,6 @@ nav span {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 4rem;
-
 }
 
 .course img {
@@ -185,10 +191,31 @@ nav span {
   width: 300px;
   margin: 0 2rem;
 }
+
+@media only screen and (max-width: 560px) {
+  .courses {
+    display: none;
+  }
+   .bite {
+    display: block;
+    padding: 11px 20px;
+    background-color: whitesmoke;
+    text-align: left;
+    margin: 0.5rem;
+  }
+
+}
 /*thesis*/
 .container video {
  max-width: 100%;
 }
+
+@media only screen and (max-width: 560px) {
+  .video {
+    max-width: 100%;
+    margin: none;
+  }
+
 
 /*footer*/
 
@@ -209,4 +236,14 @@ footer .legal {
 
 footer span {
   padding: 10px;
+}
+
+@media only screen and (max-width: 560px) {
+  footer .legal {
+    display: none;
+  }
+  footer {
+    border: none;
+    max-width: 100%;
+  }
 }
